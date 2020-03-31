@@ -2,7 +2,7 @@ library(foreign)
 library(ggplot2)
 library(survey)
 
-setwd("/Users/stephencranney/Desktop/hold/GSS_spss")
+setwd("#PUT WORKING DIRECTORY HERE#")
 
 GSS<-read.spss('GSS7218_R2.sav', to.data.frame = TRUE)
 
